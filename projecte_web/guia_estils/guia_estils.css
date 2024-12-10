@@ -1,0 +1,78 @@
+/* Tipografia */
+body {
+    font-size: 16px;
+    color: #98A895;
+    font-family: "Anaheim", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+h1, h2, h3 {
+    font-family: "Anaheim", sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+/* Colors */
+body {
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+p {
+    padding: 10px;
+}
+
+/* Botons */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.hover:hover {
+    background-color: #0056b3;
+}
+
+/* Formularis */
+input[type="text"], input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #28A745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Imatges */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
